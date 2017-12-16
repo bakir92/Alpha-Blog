@@ -3,6 +3,10 @@ $navbar-default-bg: black;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+a:visited{
+	color: #fff !important;
+}
+
 #logo{
 	float: left;
 	font-size: 1.7em;
@@ -72,4 +76,13 @@ $navbar-default-bg: black;
 .footer ul li{
 	float: left;
 	margin-left: 15px;
+}
+
+.article-actions{
+	border-top:1px solid #eaeaea;
+	padding-top: 5px;
+}
+
+.description{
+	margin-top: 0;
 }
