@@ -2,9 +2,12 @@ $navbar-default-bg: black;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+.btn{
+	color: #fff;
+}
 
-a:visited{
-	color: #fff !important;
+.btn:visited{
+	color: #fff;
 }
 
 #logo{
@@ -85,4 +88,15 @@ a:visited{
 
 .description{
 	margin-top: 0;
+}
+
+.article-title{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.article-body{
+	border-top: 1px solid #eaeaea;
+	padding-top: 15px;	
+	padding-bottom: 15px;
 }
