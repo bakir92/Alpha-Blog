@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+	resources :categories, except: [:destroy]
 	resources :articles
 	resources :users, except: [:new]
 	get 'welcome/home', to: 'welcome#home'
